@@ -1,0 +1,16 @@
+name: Cannons
+version: V13
+main: org.castleway.cannons.CannonsPlugin
+api-version: '1.21'
+authors: [Ashish]
+description: Rideable block-firing cannons built from Blockbench models.
+commands:
+  cannon:
+    description: Spawn or remove a cannon
+    usage: /cannon <give|remove|reload|calibrate> [cannon|makeshift|yes|no]
+    permission: cannons.admin
+permissions:
+  cannons.admin:
+    default: op
+  cannons.use:
+    default: true

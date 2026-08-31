@@ -1,0 +1,21 @@
+# horse gives the real jump bar and stand gives a boss bar instead
+seat: horse
+
+# turn this off to render with vanilla blocks and skip the resource pack
+custom-models: true
+debug-blocks:
+  - STONE
+  - OAK_LOG
+  - COPPER_BLOCK
+  - IRON_BLOCK
+  - DEEPSLATE_TILES
+
+# set by /cannon calibrate so leave these alone
+rotation:
+  flip-x: false
+  flip-y: false
+  flip-z: false
+  elevation-sign: 1
+  model-forward: 180
+
+config-version: 2
