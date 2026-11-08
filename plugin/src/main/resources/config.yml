@@ -1,0 +1,34 @@
+# horse or stand
+seat: horse
+
+# false uses plain blocks without the pack
+custom-models: true
+debug-blocks:
+  - STONE
+  - OAK_LOG
+  - COPPER_BLOCK
+  - IRON_BLOCK
+  - DEEPSLATE_TILES
+
+# winds the ballista when loaded
+ballista-wind-on-load: true
+
+# degrees per second
+turn-speed: 90
+
+health:
+  cannon: 200
+  makeshift_cannon: 80
+  ballista: 100
+  mounted_ballista: 140
+
+# seconds from full health to zero
+disassemble-seconds: 15
+
+# set by /cannon calibrate
+rotation:
+  flip-x: false
+  flip-y: false
+  flip-z: false
+  elevation-sign: 1
+  model-forward: 180

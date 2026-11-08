@@ -1,0 +1,78 @@
+{
+ "model": "build_zone",
+ "bones": [
+  {
+   "name": "bone",
+   "parent": -1,
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "bone2",
+   "parent": 0,
+   "origin": [
+    0.0,
+    23.5,
+    -22.0
+   ],
+   "rot": [
+    67.5,
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "pieces": [
+  {
+   "name": "bone",
+   "bone": 0,
+   "model": "cannons:build_zone_bone",
+   "offset": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "shift": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": 1.0
+  },
+  {
+   "name": "bone2",
+   "bone": 1,
+   "model": "cannons:build_zone_bone2",
+   "offset": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "shift": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "k": 1.0
+  }
+ ],
+ "animations": {}
+}

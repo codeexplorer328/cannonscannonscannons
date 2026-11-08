@@ -1,0 +1,4 @@
+plugin/target/
+.idea/
+*.iml
+__pycache__/

@@ -1,0 +1,176 @@
+{
+  "namespace": "cannons",
+  "model_id": "makeshift_cannon",
+  "bones": [
+    {
+      "name": "bone_base",
+      "item_model": "cannons:makeshift_cannon_bone_base",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "parent": null,
+      "element_count": 8
+    },
+    {
+      "name": "bone_cannon",
+      "item_model": "cannons:makeshift_cannon_bone_cannon",
+      "translation": [
+        0.0,
+        0.563451,
+        -0.021789
+      ],
+      "rotation_euler_deg": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "scale": 2.0,
+      "parent": "bone_base",
+      "element_count": 2
+    },
+    {
+      "name": "bone_free1",
+      "item_model": "cannons:makeshift_cannon_bone_free1",
+      "translation": [
+        -0.3125,
+        0.595373,
+        1.047563
+      ],
+      "rotation_euler_deg": [
+        15.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "parent": "bone_cannon",
+      "element_count": 1
+    },
+    {
+      "name": "bone_free2",
+      "item_model": "cannons:makeshift_cannon_bone_free2",
+      "translation": [
+        0.3125,
+        0.595373,
+        1.047563
+      ],
+      "rotation_euler_deg": [
+        15.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "parent": "bone_cannon",
+      "element_count": 1
+    },
+    {
+      "name": "bone_free3",
+      "item_model": "cannons:makeshift_cannon_bone_free3",
+      "translation": [
+        0.3125,
+        0.776484,
+        1.096091
+      ],
+      "rotation_euler_deg": [
+        15.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "parent": "bone_cannon",
+      "element_count": 1
+    },
+    {
+      "name": "bone_free4",
+      "item_model": "cannons:makeshift_cannon_bone_free4",
+      "translation": [
+        -0.3125,
+        0.776484,
+        1.096091
+      ],
+      "rotation_euler_deg": [
+        15.0,
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "parent": "bone_cannon",
+      "element_count": 1
+    },
+    {
+      "name": "bone_free5",
+      "item_model": "cannons:makeshift_cannon_bone_free5",
+      "translation": [
+        0.90625,
+        0.0,
+        0.5
+      ],
+      "rotation_euler_deg": [
+        2.49762,
+        -44.94549,
+        -3.53329
+      ],
+      "scale": 1.0,
+      "parent": "bone_base",
+      "element_count": 1
+    },
+    {
+      "name": "bone_free6",
+      "item_model": "cannons:makeshift_cannon_bone_free6",
+      "translation": [
+        -0.90625,
+        0.0,
+        0.5
+      ],
+      "rotation_euler_deg": [
+        2.49762,
+        44.94549,
+        3.53329
+      ],
+      "scale": 1.0,
+      "parent": "bone_base",
+      "element_count": 1
+    },
+    {
+      "name": "bone_free7",
+      "item_model": "cannons:makeshift_cannon_bone_free7",
+      "translation": [
+        0.90625,
+        0.0,
+        -0.5
+      ],
+      "rotation_euler_deg": [
+        -2.49762,
+        44.94549,
+        -3.53329
+      ],
+      "scale": 1.0,
+      "parent": "bone_base",
+      "element_count": 1
+    },
+    {
+      "name": "bone_free8",
+      "item_model": "cannons:makeshift_cannon_bone_free8",
+      "translation": [
+        -0.90625,
+        0.0,
+        -0.5
+      ],
+      "rotation_euler_deg": [
+        -2.49762,
+        -44.94549,
+        3.53329
+      ],
+      "scale": 1.0,
+      "parent": "bone_base",
+      "element_count": 1
+    }
+  ]
+}

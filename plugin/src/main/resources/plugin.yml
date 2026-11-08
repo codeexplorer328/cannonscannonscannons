@@ -1,0 +1,16 @@
+name: Cannons
+version: AlphaRelease_B
+main: org.castleway.cannons.CannonsPlugin
+api-version: '1.21'
+authors: [Ashish]
+description: Rideable cannons and ballistas with craftable build plans.
+commands:
+  cannon:
+    description: Spawn or remove a cannon
+    usage: /cannon <give|plans|remove|reload|calibrate> [cannon|makeshift|ballista|mounted|yes|no]
+    permission: cannons.admin
+permissions:
+  cannons.admin:
+    default: op
+  cannons.use:
+    default: true
